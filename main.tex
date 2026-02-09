@@ -1,0 +1,147 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.15in}
+\addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{0pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Aryan Patel} \\[2mm]
+    \footnotesize
+    \faPhone\ \underline{(XXX) XXX-XXXX} ~
+    \faEnvelope\ \underline{patel0700@saskpolytech.ca} ~
+    \faLinkedin\ \underline{linkedin.com/in/your-linkedin} ~
+    \faGithub\ \underline{github.com/aaaryanpatel}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Saskatchewan Polytechnic}{Expected: Apr 2026}
+    {Diploma, Business Information Systems}{Regina, SK}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECT EXPERIENCE-----------
+\section{Project Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {CIPS Certification Portal}{Jan 2026 -- Present}
+  {Software Developer (Capstone Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Developing a certification portal using React, TypeScript, ASP.NET Core, and SQL Server (ongoing).}
+  \resumeItem{Working through project phases: initiation, planning, execution, and closing; maintaining WBS, Gantt, charter, risk registry, and test logs.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Restock Inventory Scanner}{2024 -- Present}
+  {Mobile App Developer (Personal Project)}{Remote}
+\resumeItemListStart
+  \resumeItem{Built an offline-ready inventory scanner using React Native, Expo, and Google Vision OCR.}
+  \resumeItem{Logs stock in under 3 seconds; includes camera OCR, editable list, manual entry, local storage, and TestFlight.}
+  \resumeItem{Debugging edge cases and iterating based on real user feedback.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {BIS Battles}{Sep 2025 -- Dec 2025}
+  {Project Developer (Academic Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Built a 2D boxing game using Godot and GitHub; delivered alpha and beta demos with test logs.}
+  \resumeItem{Produced PM documentation: WBS, Gantt, scope statement, estimation sheet, charter, risk registry, and lessons learned.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Retail Associate}{2023 -- Present}
+  {Customer Service \& Operations}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Customer service, cash handling, inventory support, and operations during busy shifts.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages:} Java, Python, JavaScript, TypeScript, SQL, C++, HTML, CSS \\
+\textbf{Frameworks:} React, React Native, Node.js, Express, ASP.NET Core \\
+\textbf{Tools:} Git, GitHub Actions, Docker, Postman, MySQL, MongoDB, Firebase, Linux
+}}
+\end{itemize}
+\vspace{-15pt}
+
+\end{document}
+\documentclass[letterpaper,11pt]{article}

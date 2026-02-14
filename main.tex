@@ -52,13 +52,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
-}
-
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
@@ -72,18 +65,22 @@
 \begin{center}
     {\Large \scshape Aryan Patel} \\[2mm]
     \footnotesize
-    \faPhone\ \underline{(XXX) XXX-XXXX} ~
-    \faEnvelope\ \underline{patel0700@saskpolytech.ca} ~
-    \faLinkedin\ \underline{linkedin.com/in/your-linkedin} ~
-    \faGithub\ \underline{github.com/aaaryanpatel}
+    \faPhone\ \href{tel:+7493894900}{\underline{7493894900}} ~
+    \faEnvelope\ \href{mailto:patel0700@saskpolytech.ca}{\underline{xyz@saskpolytech.ca}} ~
+    \faLinkedin\ \href{https://www.linkedin.com/}{\underline{linkedin.com/}} ~
+    \faGithub\ \href{https://github.com/}{\underline{github.com/}} ~
+    \faTwitter\ \href{https://x.com/}{\underline{x.com/}}
     \vspace{-8pt}
 \end{center}
+
+
+
 
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Saskatchewan Polytechnic}{Expected: Apr 2026}
+    {Saskatchewan Polytechnic}{Expected: April 2026}
     {Diploma, Business Information Systems}{Regina, SK}
 \resumeSubHeadingListEnd
 \vspace{-10pt}
@@ -96,8 +93,23 @@
   {CIPS Certification Portal}{Jan 2026 -- Present}
   {Software Developer (Capstone Project)}{Regina, SK}
 \resumeItemListStart
-  \resumeItem{•	Developing a next-generation certification management portal in collaboration with CIPS (Canada’s Association of IT Professionals).}
-  \resumeItem{Working through project phases: initiation, planning, execution, and closing; maintaining WBS, Gantt, charter, risk registry, and test logs.}
+  \resumeItem{Developing a next-generation certification management portal in collaboration with CIPS (Canada’s Association of IT Professionals).}
+  \resumeItem{Building frontend and backend components using React, TypeScript, ASP.NET Core, and SQL Server.}
+  \resumeItem{Participating in full project lifecycle including Initiation, Planning, Execution, and Closing phases.}
+  \resumeItem{Created and maintained WBS, Gantt Chart, Project Charter, Risk Registry, Project Scope Statement, Alpha Narrative, and Test Logs.}
+  \resumeItem{Implementing role-based workflows for applicants, office, and reviewers.}
+  \resumeItem{Managing version control using GitHub.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {BIS Battles}{Sep 2025 -- Dec 2025}
+  {Project Developer (Game Development Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Developed a 2D boxing game as part of a team-based academic project using Godot and GitHub.}
+  \resumeItem{Worked within structured project management phases including Planning, Execution, and Closing.}
+  \resumeItem{Produced documentation including WBS, Gantt Chart, Project Scope, Estimation Worksheets, Project Charter, Risk Registry, and Lessons Learned.}
+  \resumeItem{Delivered Alpha and Beta demos with structured testing and feedback cycles.}
+  \resumeItem{Maintained test logs and change records throughout development.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -105,16 +117,10 @@
   {Mobile App Developer (Personal Project)}{Remote}
 \resumeItemListStart
   \resumeItem{Built an offline-ready inventory scanner using React Native, Expo, and Google Vision OCR.}
-  \resumeItem{Logs stock in under 3 seconds; includes camera OCR, editable list, manual entry, local storage, and TestFlight.}
-  \resumeItem{Debugging edge cases and iterating based on real user feedback.}
-\resumeItemListEnd
-
-\resumeSubheading
-  {BIS Battles}{Sep 2025 -- Dec 2025}
-  {Project Developer (Academic Project)}{Regina, SK}
-\resumeItemListStart
-  \resumeItem{Built a 2D boxing game using Godot and GitHub; delivered alpha and beta demos with test logs.}
-  \resumeItem{Produced PM documentation: WBS, Gantt, scope statement, estimation sheet, charter, risk registry, and lessons learned.}
+  \resumeItem{Extracts product information using OCR and logs stock in under 3 seconds, saving approximately 30 minutes per shift.}
+  \resumeItem{Implemented camera-based scanning, editable lists, manual entry.}
+  \resumeItem{Integrated TestFlight for beta distribution and real-user testing.}
+  \resumeItem{Debugging edge cases and tuning performance based on user feedback.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -127,7 +133,10 @@
   {Retail Associate}{2023 -- Present}
   {Customer Service \& Operations}{Regina, SK}
 \resumeItemListStart
-  \resumeItem{Customer service, cash handling, inventory support, and operations during busy shifts.}
+  \resumeItem{Provide customer service during high-volume shifts while maintaining accuracy and efficiency.}
+  \resumeItem{Handle cash transactions, reconciliation, and POS operations.}
+  \resumeItem{Support inventory management, restocking, and merchandising.}
+  \resumeItem{Assist in training new staff and maintaining smooth store operations.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 \vspace{-10pt}
@@ -136,12 +145,12 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Languages:} Java, Python, JavaScript, TypeScript, SQL, C++, HTML, CSS \\
+\textbf{Languages:} Java, JavaScript, TypeScript, SQL, HTML, CSS \\
 \textbf{Frameworks:} React, React Native, Node.js, Express, ASP.NET Core \\
-\textbf{Tools:} Git, GitHub Actions, Docker, Postman, MySQL, MongoDB, Firebase, Linux
+\textbf{Databases:} SQL, MongoDB, Supabase \\
+\textbf{Tools:} Git, GitHub, Postman, Swagger, Clerk
 }}
 \end{itemize}
 \vspace{-15pt}
 
 \end{document}
-\documentclass[letterpaper,11pt]{article}

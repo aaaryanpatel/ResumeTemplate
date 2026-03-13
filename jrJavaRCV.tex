@@ -1,0 +1,178 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[margin=1.4cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%========================
+% PAGE 1 : RESUME
+%========================
+
+\begin{center}
+    {\Large \scshape Aryan Patel} \\[2mm]
+    \footnotesize
+    \faPhone\ \href{tel:+16395901400}{639-590-1400} ~
+    \faEnvelope\ \href{mailto:patel0700@saskpolytech.ca}{patel0700@saskpolytech.ca} ~
+    \faLinkedin\ \href{https://www.linkedin.com/}{linkedin.com/in/aryan} ~
+    \faGithub\ \href{https://github.com/}{github.com/aryan}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Saskatchewan Polytechnic}{Expected: April 2026}
+    {Diploma, Business Information Systems}{Regina, SK}
+\resumeSubHeadingListEnd
+
+%-----------PROJECT EXPERIENCE-----------
+\section{Project Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {CIPS Certification Portal}{Jan 2026 -- Present}
+  {Software Developer (Capstone Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Developing a certification management portal in collaboration with CIPS (Canada’s Association of IT Professionals).}
+  \resumeItem{Building frontend and backend components using React, TypeScript, Node.js, Express, and SQL Server.}
+  \resumeItem{Participating in full Software Development Life Cycle including requirements analysis, design, development, testing, and deployment.}
+  \resumeItem{Created project artifacts including WBS, Gantt Chart, Project Charter, Risk Registry, Scope Statement, Alpha Narrative, and Test Logs.}
+  \resumeItem{Implemented role-based workflows for applicants, office staff, and reviewers.}
+  \resumeItem{Used GitHub for version control and team collaboration.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Java Multi-Client Chat Application}{2024}
+  {Java Developer (Academic Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Built a multi-client chat server using Java SE with TCP socket programming enabling real-time communication between multiple clients.}
+  \resumeItem{Designed object-oriented architecture using abstract classes, interfaces, and inheritance.}
+  \resumeItem{Implemented multithreaded client handling using Java Thread and ThreadGroup.}
+  \resumeItem{Structured client-server messaging using serializable objects with ObjectInputStream and ObjectOutputStream.}
+  \resumeItem{Developed Java Swing GUI client supporting messaging and chat rooms.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {BIS Battles}{Sep 2025 -- Dec 2025}
+  {Project Developer (Game Development Project)}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Developed a 2D boxing game using Godot as part of a team-based academic project.}
+  \resumeItem{Worked through development phases including planning, implementation, testing, and closing.}
+  \resumeItem{Produced documentation including WBS, Gantt Chart, Scope Statement, and Risk Registry.}
+  \resumeItem{Delivered Alpha and Beta demos and maintained test logs.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Retail Associate}{2023 -- Present}
+  {Customer Service \& Operations}{Regina, SK}
+\resumeItemListStart
+  \resumeItem{Provided customer service during high-volume shifts while maintaining efficiency and accuracy.}
+  \resumeItem{Handled POS transactions and financial reconciliation.}
+  \resumeItem{Supported inventory management and operational workflows.}
+  \resumeItem{Assisted with training new staff and maintaining store operations.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages:} Java, JavaScript, TypeScript, SQL, HTML, CSS \\
+\textbf{Frameworks:} React, React Native, Node.js, Express, Angular \\
+\textbf{Databases:} SQL Server, MongoDB \\
+\textbf{Tools:} Git, GitHub, Postman, Swagger, Jenkins \\
+\textbf{Concepts:} SDLC, REST APIs, debugging, testing, version control
+}}
+\end{itemize}
+
+%========================
+% PAGE 2 : COVER LETTER
+%========================
+
+\newpage
+
+March 13, 2026
+
+Hiring Team \\
+SaskTel International \\
+Regina, SK
+
+\vspace{10pt}
+
+Dear Hiring Team,
+
+I am writing to apply for the Junior Java Developer (External Consultant) position with SaskTel International. I am currently completing my Diploma in Business Information Systems at Saskatchewan Polytechnic, where I have been building a strong foundation in software development, web technologies, and database systems.
+
+As part of my capstone project, I am working with Canada’s Association of IT Professionals (CIPS) to develop a certification management portal. In this project, I participate in several phases of the software development life cycle including requirements analysis, design discussions, development, and testing. Our team also produces project artifacts such as WBS, Gantt charts, project charters, scope statements, and test logs. In addition to documentation work, I contribute to the implementation of the system using React, TypeScript, Node.js, Express, and SQL Server.
+
+My academic background also includes several Java courses where I learned object-oriented programming, networking concepts, and GUI development. One project I completed was a Java multi-client chat application that used TCP sockets, multithreading, and a Swing interface to allow multiple users to communicate simultaneously. Through this project I practiced designing class structures using inheritance and interfaces, handling concurrent connections, and documenting code using Javadoc.
+
+In addition, my program included coursework in Angular. While most of my hands-on work has been with React, the underlying concepts of component-based architecture, state management, and modern JavaScript development translate well between frameworks, and I am comfortable learning and adapting to Angular environments.
+
+I am particularly interested in this role at SaskTel International because it offers the opportunity to contribute to real telecommunications software systems while working through the full development lifecycle in a collaborative environment. I enjoy solving complex technical problems, learning from experienced developers, and continuing to improve my engineering skills.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my background and enthusiasm for software development could contribute to your team.
+
+\vspace{10pt}
+
+Sincerely,
+
+\vspace{10pt}
+
+Aryan Patel
+
+\end{document}

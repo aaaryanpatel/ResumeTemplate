@@ -1,0 +1,139 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+\usepackage[margin=1.2cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{1pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \textbf{Aryan Patel}} \\[2mm]
+    \footnotesize
+    \faPhone\ \href{tel:+16395901400}{639-590-1400} ~
+    \faEnvelope\ \href{mailto:aryanpatel131129@gmail.com}{aryanpatel131129@gmail.com} ~
+    \faLinkedin\ linkedin.com/in/aryan ~
+    \faGithub\ github.com/aryan
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Saskatchewan Polytechnic}{Expected April 2026}
+{Diploma – Business Information Systems (CIPS Accredited)}{Regina, SK}
+\resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CIPS Certification Portal (Capstone Project)}{2026 -- Present}
+{Software Developer – Client Project (CIPS Canada)}{Regina, SK}
+\resumeItemListStart
+\resumeItem{Working directly with CIPS (Canada’s Association of IT Professionals) to develop a real-world certification management portal.}
+\resumeItem{Participating in full Software Development Life Cycle including requirements analysis, system design, development, testing, and deployment.}
+\resumeItem{Developing application features using Node.js, Express, React, TypeScript, and SQL Server.}
+\resumeItem{Created structured documentation including WBS, Gantt Charts, Project Charter, Scope Statement, Risk Registry, and Test Logs.}
+\resumeItem{Collaborated with team members to translate business requirements into technical solutions in a structured environment.}
+\resumeItem{Recognized on official CIPS website as part of a national capstone project collaboration (\href{https://cips.ca/2026-saskatchewan-polytechnic-bis-students-take-on-capstone-project-to-design-cips-next-gen-certification-portal/}{Article Link}).}
+\resumeItemListEnd
+
+\resumeSubheading
+{Retail Associate}{2023 -- Present}
+{Customer Service \& Operations}{Regina, SK}
+\resumeItemListStart
+\resumeItem{Handled customer interactions and transactions in a high-volume environment with strong attention to accuracy.}
+\resumeItem{Performed cash reconciliation, maintained records, and ensured smooth daily operations.}
+\resumeItem{Worked independently and within a team while maintaining efficiency under pressure.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECT EXPERIENCE-----------
+\section{Project Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Java Multi-Client Chat Application}{2024}
+{Java Developer (Academic Project)}{Regina, SK}
+\resumeItemListStart
+\resumeItem{Built a multi-client chat system using Java SE with TCP socket programming enabling real-time communication.}
+\resumeItem{Designed object-oriented architecture using inheritance, interfaces, and modular class structures.}
+\resumeItem{Implemented multithreading to handle concurrent users without blocking server operations.}
+\resumeItem{Developed a Java Swing GUI client supporting real-time messaging, private chat, and user interaction.}
+\resumeItemListEnd
+
+\resumeSubheading
+{BIS Battles}{2025}
+{Project Developer (Team Project)}{Regina, SK}
+\resumeItemListStart
+\resumeItem{Developed a 2D game using Godot while working through planning, development, and testing phases.}
+\resumeItem{Created documentation including WBS, Gantt charts, and risk analysis reports.}
+\resumeItem{Performed debugging, testing, and iterative improvements based on feedback cycles.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.1in, label={}]
+\small{\item{
+\textbf{Languages:} Java, JavaScript, TypeScript, SQL, HTML, CSS \\
+\textbf{Frameworks:} React, Node.js, Express, Angular (course exposure) \\
+\textbf{Databases:} SQL Server, MongoDB \\
+\textbf{Tools:} Git, GitHub, Postman, Swagger, Jenkins, Maven \\
+\textbf{Concepts:} SDLC, REST APIs, debugging, testing, system design
+}}
+\end{itemize}
+
+\end{document}
